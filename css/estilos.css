@@ -1,7 +1,19 @@
+:root {
+    --font-roboto: 'Roboto Mono', sans-serif;
+    --transiciones: all 700ms ease;
+    --transformaciones: scale(1.25);
+    --font-standard: 1.6rem;
+    --font-h1: 8rem;
+    --font-h2: 6rem;
+    --font-h3: 4rem;
+    --font-h4: 3rem;
+}
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: var(--font-roboto);
 }
 
 html {
@@ -13,11 +25,11 @@ html {
     position: fixed;
     top: 250px;
     margin-left: 1rem;
-    -webkit-transition: all 700ms ease;
-    -o-transition: all 700ms ease;
-    -moz-transition: all 700ms ease;
-    -ms-transition: all 700ms ease;
-    transition: all 700ms ease;
+    -webkit-transition: var(--transiciones);
+    -o-transition: var(--transiciones);
+    -moz-transition: var(--transiciones);
+    -ms-transition: var(--transiciones);
+    transition: var(--transiciones);
 
  }
 
@@ -27,34 +39,35 @@ html {
 }
 
  .contacto ul li a :hover  {
-   -webkit-transform: scale(1.25);
-   -o-transform: scale(1.25);
-   -moz-transform: scale(1.25); 
-   -ms-transform: scale(1.25); 
-   transform: scale(1.25); 
+   -webkit-transform: var(--transformaciones);
+   -o-transform: var(--transformaciones);
+   -moz-transform: var(--transformaciones); 
+   -ms-transform: var(--transformaciones); 
+   transform: var(--transformaciones); 
  }
 
 h1 {
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: var(--font-roboto);
     text-align: center;
-    font-size: 8rem;
+    font-size: var(--font-h1);
   
 }
 
 
 li i {
-     -webkit-transition: all 700ms ease;
-    -o-transition: all 700ms ease;
-    -moz-transition: all 700ms ease;
-    -ms-transition: all 700ms ease;
-    transition: all 700ms ease;
+     -webkit-transition: var(--transiciones);
+    -o-transition: var(--transiciones);
+    -moz-transition: var(--transiciones);
+    -ms-transition: var(--transiciones);
+    transition: var(--transiciones);
     cursor: pointer;
 }
 li i:hover {
-     -o-transform: scale(1.25);
-   -moz-transform: scale(1.25); 
-   -ms-transform: scale(1.25); 
-   transform: scale(1.25); 
+    -webkit-transform: var(--transformaciones);
+   -o-transform: var(--transformaciones);
+   -moz-transform: var(--transformaciones); 
+   -ms-transform: var(--transformaciones); 
+   transform: var(--transformaciones); 
 }
 
 #particles-js {
@@ -65,8 +78,8 @@ li i:hover {
 }
 
 h2 {
-    font-size: 6rem;
-    font-family: 'Roboto Mono', sans-serif;
+    font-size: var(--font-h2);
+    font-family: var(--font-roboto);
     text-align: center;
    
 }
@@ -74,21 +87,21 @@ h2 {
 
 h3 {
     font-weight: 600;
-    font-size: 4rem;
-    font-family: 'Roboto Mono', sans-serif;
+    font-size: var(--font-h3);
+    font-family: var(--font-roboto);
     margin-top: 50px;
 }
 
 h4 {
-    font-size: 3rem;
+    font-size: var(--font-h4);
 }
 
 p { 
-    font-size: 1.6rem;
+    font-size: var(--font-standard);
 }
 
 .card-body a {
-    font-size: 1.6rem;
+    font-size: var(--font-standard);
 }
 
 ul {
