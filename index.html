@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="portafolio, portfolio, github, kenji, arakaki, Kenji Arakaki, trabajos, kenji arakaki, frontend, front-end, developer, web">
+    <meta name="keywords" content="portafolio, portfolio, proyecto, programacion, Github, kenji, arakaki, Kenji Arakaki, trabajos, kenji arakaki, frontend, html, css, javascript, bootstrap, web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="title" content="Kenji Arakaki">
-    <meta name="description" content="Portafolio, en donde subo algunos de mis proyectos, otros los tengo en mi perfil de Github que se encuentra linkeado en el mismo.">
+    <meta name="author" content="Kenji Arakaki">
+    <meta name="description" content="Portfolio, en donde subo algunos de mis proyectos, otros los tengo en mi perfil de Github que se encuentra linkeado en el mismo.">
     <meta itemprop="name" content="Kenji Arakaki">
-    <meta itemprop="description" content="Portafolio, en donde subo alguno de mis proyectos, otros los tengo en mi perfil de Github que se encuentra linkeado en el mismo.">
+    <meta itemprop="description" content="Portfolio, en donde subo alguno de mis proyectos, otros los tengo en mi perfil de Github que se encuentra linkeado en el mismo.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://www.kenjiarakaki.com/">
     <meta property="og:title" content="Kenji Arakaki">
@@ -27,7 +28,7 @@
     <title>Kenji Arakaki Portfolio</title>
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/WebPage">
 
     <div id="particles-js"></div>
 <!-- Datos de contacto -->
@@ -35,13 +36,13 @@
 
 <ul style="display: inline-block; ">
     <li>
-        <a href="https://www.linkedin.com/in/kenji-arakaki-75026112a/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/kenji-arakaki-75026112a/" title="Linkedin" itemprop="url"><i class="fab fa-linkedin"></i></a>
     </li>
     <li>
-        <a href="https://github.com/kenji1993" title="Github"><i class="fab fa-github-alt" style="color: black;"></i></a>
+        <a href="https://github.com/kenji1993" title="Github" itemprop="url"><i class="fab fa-github-alt" style="color: black;"></i></a>
     </li>
     <li>
-        <a href="mailto:kenji.arakaki93@gmail.com" title="kenji.arakaki93@gmail.com"><i class="far fa-envelope" style="color: #d93025;"></i></a>
+        <a href="mailto:kenji.arakaki93@gmail.com" title="kenji.arakaki93@gmail.com" itemprop="email"><i class="far fa-envelope" style="color: #d93025;"></i></a>
     </li>   
 </ul>
     
@@ -49,11 +50,8 @@
     
     <div class="container">
         <div class="row">
-            <div class="col">
-
-            <h1>Kenji Arakaki</h1>
-            <h2> <span class="typed"></span> </h2>
-            
+            <h1 itemprop="name">Kenji Arakaki</h1>
+            <h2> <span class="typed" itemprop="jobTitle"></span> </h2>
             </div>
         </div>
      </div>
@@ -69,6 +67,7 @@
             <li><i class="fab fa-html5" style="color: #f5540f;" title="HTML5"></i></li>
             <li><i class="fab fa-css3-alt" style="color: #0e6fe6;" title="CSS3"></i></li>
             <li><i class="fab fa-bootstrap" style="color: #5d0191;" title="Bootstrap"></i></li>
+            <li><i class="fab fa-sass" style="color: #bf4080;" title="Sass"></i></li>
             <li><i class="fab fa-js-square" style="color: #ffea00;" title="Javascript"></i></li>
         </ul>
         </div>
@@ -84,12 +83,12 @@
             <div class="col-12 col-md-6 col-lg-4 mt-5">
                 <div class="card border-dark">
                     <div class="card-body">
-                        <h4 class="card-title">Random Page</h4>
-                        <img src="img/S1_Tyrannosaur.jpg" class="img-fluid" width="300" height="300" alt="">
+                        <h4 class="card-title" itemprop="name">Random Page</h4>
+                        <img itemprop="image" src="img/S1_Tyrannosaur.jpg" class="img-fluid" width="300" height="300" alt="Random page">
                         <p style="margin-top: 15px;">Proyecto personal, trabajado con:
                             </br>HTML5-CSS3-Bootstrap-Javascript-Jquery
                         </p>
-                        <a href="https://randompage1993.web.app/" class="btn btn-secondary btn-block">Ir</a>
+                        <a href="https://randompage1993.web.app/" class="btn btn-secondary btn-block" itemprop="url">Ir</a>
                     </div>
                 </div>
             </div>
@@ -97,11 +96,11 @@
             <div class="col-12  col-md-6 col-lg-4 mt-5">
                 <div class=" card border-dark ">
                     <div class="card-body ">
-                        <h4 class="card-title">Kenji´s Project</h4>
-                        <img src="img/kenjisproject.png " class="img-fluid" alt=" ">
+                        <h4 class="card-title" itemprop="name">Kenji´s Project</h4>
+                        <img itemprop="image" src="img/kenjisproject.png " class="img-fluid" alt="Kenji´s Project ">
                         <p style="margin-top: 15px; ">Proyecto para UTN E-learning, trabajado con:</br>
                             HTML5-CSS3-Bootstrap-Javascript-Jquery.</p>
-                        <a href="https://kenjisproject93.web.app/ " class="btn btn-secondary btn-block ">Ir</a>
+                        <a href="https://kenjisproject93.web.app/ " class="btn btn-secondary btn-block " itemprop="url">Ir</a>
                     </div>
                 </div>
             </div>
@@ -109,11 +108,11 @@
             <div class="col-12  col-md-6 col-lg-4 mt-5">
                 <div class=" card border-dark ">
                     <div class="card-body ">
-                        <h4 class="card-title">Bunka Sushi Escobar</h4>
-                        <img src="img/bunka.jpg " class="img-fluid" alt=" ">
+                        <h4 class="card-title" itemprop="name">Bunka Sushi Escobar</h4>
+                        <img itemprop="image" src="img/bunka.jpg " class="img-fluid" alt="Bunka Sushi Escobar ">
                         <p style="margin-top: 15px; ">Diseño 1 para Bunka Sushi Escobar, trabajado con:<br>
                         HTML5-CSS3-Bootstrap-Javascript.</p>
-                        <a href="https://bunkasushi01.web.app/" class="btn btn-secondary btn-block ">Ir</a>
+                        <a href="https://bunkasushi01.web.app/" class="btn btn-secondary btn-block " itemprop="url">Ir</a>
                     </div>
                 </div>
             </div>
