@@ -110,12 +110,16 @@ ul {
     display: inline-flex;
 
 }
-
+.conocimientos {
+    display: flex;
+    justify-content: center;
+}
 .conocimientos li {
     font-size: 7rem;
     list-style-type: none;
-    margin: 1.5rem;
+    margin: 1.5rem;  
 }
+
 
 @media all and (max-width: 820px) {
 
