@@ -77,6 +77,8 @@ li i:hover {
     z-index: -1;
 }
 
+
+
 h2 {
     font-size: var(--font-h2);
     font-family: var(--font-roboto);
