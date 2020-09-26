@@ -110,10 +110,7 @@ ul {
     display: inline-flex;
 
 }
-.conocimientos {
-    display: flex;
-    justify-content: center;
-}
+
 .conocimientos li {
     font-size: 7rem;
     list-style-type: none;
@@ -130,6 +127,11 @@ ul {
     
 
  }
+
+ .conocimientos {
+    display: flex;
+    justify-content: center;
+}
  .contacto ul li{
     display: inline;
   
