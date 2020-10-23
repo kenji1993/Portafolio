@@ -52,7 +52,15 @@ h1 {
     font-size: var(--font-h1);
   
 }
-
+.extracto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+}
+hr {
+    border: 0.1rem solid lightgrey;
+}
 
 li i {
      -webkit-transition: var(--transiciones);
