@@ -77,6 +77,10 @@ li i:hover {
    -ms-transform: var(--transformaciones); 
    transform: var(--transformaciones); 
 }
+.fa-vuejs {
+    font-size: 7.5rem;
+    margin-left: -2rem;
+}
 
 #particles-js {
     height: 100vh;
