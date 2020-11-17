@@ -144,6 +144,10 @@ ul {
     display: inline-flex;
 
 }
+.pronunciation-img {
+    width: 7rem;
+    height: 25rem; 
+}
 
 .conocimientos li {
     font-size: 7rem;
@@ -188,31 +192,34 @@ ul {
     .extracto {
         margin-top: 15rem;
     }
-.contacto {
-    top: 0;
-    position: static;
+    .contacto {
+        top: 0;
+        position: static;
 
- }
+    }
 
- .conocimientos {
-    display: flex;
-    justify-content: center;
-}
- .contacto ul li{
-    display: inline;
-  
- }
- .fa-js-square {
-     margin-left: 3rem;
- }
-.card-body img {
-    min-width: 10rem;
-}
-.fa-vuejs {
-    font-size: 7.5rem;
-    margin-left: 2rem;
-}
-.footer {
-    justify-content: center;
-}
+    .conocimientos {
+        display: flex;
+        justify-content: center;
+    }
+    .contacto ul li{
+        display: inline;
+    
+    }
+    .fa-js-square {
+        margin-left: 3rem;
+    }
+    .card-body img {
+        min-width: 10rem;
+    }
+    .fa-vuejs {
+        font-size: 7.5rem;
+        margin-left: 2rem;
+    }
+    .pronunciation-img {
+        width: 22rem;
+    }
+    .footer {
+        justify-content: center;
+    }
 }
