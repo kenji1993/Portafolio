@@ -217,7 +217,8 @@ ul {
         margin-left: 2rem;
     }
     .pronunciation-img {
-        width: 22rem;
+        width: 90%;
+        height: auto;
     }
     .footer {
         justify-content: center;
