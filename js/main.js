@@ -6,3 +6,4 @@ const typed = new Typed('.typed', {
 	smartBackspace: true,
 	loop: true,
 });
+

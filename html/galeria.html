@@ -6,49 +6,69 @@
     <title>Galeria CSS</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/galeria.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header"></div>
+    
+    <div class="container title">
+        <div class="row">
+            <div class="col">
+            <h1 itemprop="name">Galería CSS <span class="typed2"></span></h1>
+            </div>
+        </div>
+     </div>
+    
     <div class="container">
         <div class="row">
-            <div class="card col-4">
+            <div class="card col-3">
                 <img src="../img/cubeMove.png" class="card-img-top" alt="Cube 3D" >
                 <div class="card-body">
                     <h5 class="card-title">Cubo 3D</h5>
-                    <a href="">Muestra</a>
-                    <a href="">Github</a>
+                    <a href="" class="btn btn-primary">Muestra</a>
+                    <a href="" class="btn btn-primary">Github</a>
                 </div>
             </div>
 
-            <div class="card col-4">
+            <div class="card col-3">
                 <img src="../img/atom.jpg" class="card-img-top" alt="Atom">
                 <div class="card-body">
                     <h5 class="card-title">Atom</h5>
-                    <a href="">Muestra</a>
-                    <a href="">Github</a>
+                    <a href="" class="btn btn-primary">Muestra</a>
+                    <a href="" class="btn btn-primary">Github</a>
                 </div>
             </div>
 
-            <div class="card col-4">
+            <div class="card col-3">
                 <img src="../img/space-invader.jpg" class="card-img-top" alt="Space Invader">
                 <div class="card-body">
                     <h5 class="card-title">Space Invader</h5>
-                    <a href="">Muestra</a>
-                    <a href="">Github</a>
+                    <a href="" class="btn btn-primary">Muestra</a>
+                    <a href="" class="btn btn-primary">Github</a>
                 </div>
             </div>
 
-            <div class="card col-4">
+            <div class="card col-3">
                 <img src="../img/cassette.jpg" class="card-img-top" alt="Cassette">
                 <div class="card-body">
                     <h5 class="card-title"></h5>
-                    <a href="">Muestra</a>
-                    <a href="">Github</a>
+                    <a href="" class="btn btn-primary">Muestra</a>
+                    <a href="" class="btn btn-primary">Github</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="../js/typed.js"></script>
+    <script>
+        const typed2 = new Typed('.typed2', {
+	strings: ['...', '...'],
+	typeSpeed: 90,
+	startDelay: 300,
+	backSpeed: 90,
+	smartBackspace: true,
+	loop: true,
+});
+    </script>
     <script src="https://kit.fontawesome.com/500df033a6.js " crossorigin="anonymous "></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

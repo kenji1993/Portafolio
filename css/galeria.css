@@ -6,3 +6,11 @@
 html {
     font-size: 62.5%;
 }
+.container .row {
+    display: flex;
+    justify-content: center;
+    
+}
+.card {
+    margin: 0.5rem;
+}
