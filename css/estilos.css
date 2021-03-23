@@ -90,10 +90,6 @@ li i:hover {
    -ms-transform: var(--transformaciones); 
    transform: var(--transformaciones); 
 }
-.fa-vuejs {
-    font-size: 7.5rem;
-    margin-left: -2rem;
-}
 
 #particles-js {
     height: 100vh;
@@ -165,6 +161,23 @@ ul {
 .footer .row .col p {
     margin: -0.5rem;
 }
+
+.redirect {
+    background-color: #4fc08d;
+    padding: 1rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 3rem;
+ }
+ .redirect:hover {
+     background-color: #218d5c;
+     text-decoration: none;
+     color: #fff;
+ }
+
 @media all and (max-width: 1100px) {
     .title {
         height: 24rem;
