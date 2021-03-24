@@ -1,0 +1,63 @@
+
+:root {
+    --font-roboto: 'Roboto Mono', sans-serif;
+    --transiciones: all 700ms ease;
+    --transformaciones: scale(1.25);
+    --font-standard: 1.6rem;
+    --font-h1: 8rem;
+    --font-h2: 6rem;
+    --font-h3: 4rem;
+    --font-h4: 3rem;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+.contacto {
+    left: 1;
+    position: fixed;
+    top: 250px;
+    margin-left: 1rem;
+    -webkit-transition: var(--transiciones);
+    -o-transition: var(--transiciones);
+    -moz-transition: var(--transiciones);
+    -ms-transition: var(--transiciones);
+    transition: var(--transiciones);
+}
+.contacto ul li {
+    font-size: 5rem;
+    margin: 0.5rem;
+}
+
+ .contacto ul li a :hover {
+   -webkit-transform: var(--transformaciones);
+   -o-transform: var(--transformaciones);
+   -moz-transform: var(--transformaciones); 
+   -ms-transform: var(--transformaciones); 
+   transform: var(--transformaciones); 
+ }
+ li i {
+    -webkit-transition: var(--transiciones);
+   -o-transition: var(--transiciones);
+   -moz-transition: var(--transiciones);
+   -ms-transition: var(--transiciones);
+   transition: var(--transiciones);
+   cursor: pointer;
+}
+li i:hover {
+   -webkit-transform: var(--transformaciones);
+  -o-transform: var(--transformaciones);
+  -moz-transform: var(--transformaciones); 
+  -ms-transform: var(--transformaciones); 
+  transform: var(--transformaciones); 
+}
