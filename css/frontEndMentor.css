@@ -61,3 +61,9 @@ li i:hover {
   -ms-transform: var(--transformaciones); 
   transform: var(--transformaciones); 
 }
+
+h1 {
+    font-family: var(--font-roboto);
+    text-align: center;
+    font-size: var(--font-h1);
+}
