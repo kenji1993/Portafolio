@@ -75,7 +75,7 @@ hr {
     background-color: #218d5c;
 }
 
-li i {
+li i, .typescriptLogo {
      -webkit-transition: var(--transiciones);
     -o-transition: var(--transiciones);
     -moz-transition: var(--transiciones);
@@ -83,12 +83,19 @@ li i {
     transition: var(--transiciones);
     cursor: pointer;
 }
-li i:hover {
+li i:hover,
+   .typescriptLogo:hover {
     -webkit-transform: var(--transformaciones);
    -o-transform: var(--transformaciones);
    -moz-transform: var(--transformaciones); 
    -ms-transform: var(--transformaciones); 
    transform: var(--transformaciones); 
+}
+
+.typescriptLogo {
+    width: 6.5rem;
+    position: absolute;
+    top: 2rem;
 }
 
 #particles-js {
@@ -189,10 +196,6 @@ ul {
     .contacto ul li {
         display: inline;
     }
-    .fa-vuejs {
-        font-size: 7.5rem;
-        margin-left: 2rem;
-    }
     .footer {
         justify-content: center;
     }
@@ -218,15 +221,8 @@ ul {
         display: inline;
     
     }
-    .fa-js-square {
-        margin-left: 3rem;
-    }
     .card-body img {
         min-width: 10rem;
-    }
-    .fa-vuejs {
-        font-size: 7.5rem;
-        margin-left: 2rem;
     }
     .pronunciation-img {
         width: 90%;

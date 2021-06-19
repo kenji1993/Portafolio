@@ -125,10 +125,6 @@ h4 {
     .contacto ul li {
         display: inline;
     }
-    .fa-vuejs {
-        font-size: 7.5rem;
-        margin-left: 2rem;
-    }
     .footer {
         justify-content: center;
     }
@@ -146,25 +142,16 @@ h4 {
         position: static;
 
     }
-
-    .conocimientos {
-        display: flex;
-        justify-content: center;
-    }
     .contacto ul li{
         display: inline;
     
     }
-    .fa-js-square {
-        margin-left: 3rem;
-    }
+
     .card-body img {
         min-width: 10rem;
     }
-    .pronunciation-img {
-        width: 90%;
-        height: auto;
-    }
+
     .footer {
         justify-content: center;
     }
+}
